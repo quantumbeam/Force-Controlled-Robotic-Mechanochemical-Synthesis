@@ -1,0 +1,70 @@
+data_NIMS_MatNavi_4295277756_1_2
+
+#
+# COPYRIGHT NOTICE
+#
+# This CIF data is created using data from AtomWork, published 2010/06 by
+# National Institute for Materials Science (NIMS), Tsukuba, Japan. Copyright
+# 2010 by NIMS and  Materials Phases Data system (MPDS), Vitznau,
+# Switzerland. All Rghts Reserved.
+#
+# DISCLAIMER
+#
+# The values reported here are taken from the literature and other sources and
+# the author does not warrant their correctness nor accept any
+# responsibility for errors. Users are advised to consult the primarysources.
+#
+
+_chemical_formula_sum 'Br2 Pb'
+_space_group_crystal_system orthorhombic
+_symmetry_space_group_name_H-M 'P n m a'
+_symmetry_Int_Tables_number 62
+
+loop_
+    _symmetry_equiv_pos_site_id
+    _symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x+1/2,-y,z+1/2
+3 -x,y+1/2,-z
+4 x+1/2,-y+1/2,-z+1/2
+5 -x,-y,-z
+6 x+1/2,y,-z+1/2
+7 x,-y+1/2,z
+8 -x+1/2,y+1/2,z+1/2
+
+_cell_length_a 8.06
+_cell_length_b 4.732
+_cell_length_c 9.553
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 364.4
+_cell_formula_units_Z 4
+
+loop_
+    _atom_site_label
+    _atom_site_fract_x
+    _atom_site_fract_y
+    _atom_site_fract_z
+    _atom_site_occupancy
+    _atom_site_symmetry_multiplicity
+    _atom_site_Wyckoff_symbol
+    _atom_site_U_iso_or_equiv
+    _atom_site_type_symbol
+Br1 0.0227 0.25 0.6621 1.0 4 c ? Br
+Br2 0.1425 0.25 0.0745 1.0 4 c ? Br
+Pb1 0.2393 0.25 0.4045 1.0 4 c ? Pb
+
+_publ_section_title 'SYNTHESIS OF SINGLE-CRYSTALLINE LEAD COMPOUNDS UNDER HYDROTHERMAL CONDITIONS'
+_journal_coden_ASTM INOMAF
+_journal_name_full 'Inorg. Mater.'
+_journal_year 1991
+_journal_volume 27
+_journal_page_first 2247
+_journal_page_last 2251
+_journal_language English
+
+loop_
+    _publ_author_name
+'Popolitov V.I.'
+'Plakhov G.F.'

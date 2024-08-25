@@ -1,0 +1,480 @@
+********************************************************************************
+   General Structure Analysis System-II Crystal Structure Refinement
+              by Robert B. Von Dreele & Brian H. Toby
+                Argonne National Laboratory(C), 2010
+ This product includes software developed by the UChicago Argonne, LLC,
+            as Operator of Argonne National Laboratory.
+                          Please cite:
+   B.H. Toby & R.B. Von Dreele, J. Appl. Cryst. 46, 544-549 (2013)
+********************************************************************************
+ Least squares controls:
+ Refinement type: analytic Hessian
+ Maximum number of cycles: 10
+ Regularize hydrogens (if any): False
+ Initial shift factor: 1.000
+
+ Phases:
+
+ Phase name: CsBr
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Br        17.17890   5.23580   5.63770   3.98510   2.17230  16.57960   0.26090  41.43280   2.95570
+ Cs        20.38920  19.10620  10.66200   1.49530   3.56900   0.31070  24.38790 213.90400   3.33520
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Br      Nat. Abund.     79.904    0.679
+ Cs      Nat. Abund.    132.905    0.542
+
+ Space Group: P m -3 m
+ The lattice is centrosymmetric primitive cubic
+ The Laue symmetry is m3m
+ The lattice point group is m3m
+ Multiplicity of a general site is 48
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ ( 1)     X,     Y,     Z 
+ ( 2)     Z,     X,     Y 
+ ( 3)     Y,     Z,     X 
+ ( 4)     X,     Y,    -Z 
+ ( 5)    -Z,     X,     Y 
+ ( 6)     Y,    -Z,     X 
+ ( 7)    -Z,     X,    -Y 
+ ( 8)    -Y,    -Z,     X 
+ ( 9)     Y,    -Z,    -X 
+ (10)    -X,     Y,    -Z 
+ (11)    -Z,    -X,     Y 
+ (12)     X,    -Y,    -Z 
+ (13)     Y,     X,     Z 
+ (14)     Z,     Y,     X 
+ (15)     X,     Z,     Y 
+ (16)     Y,     X,    -Z 
+ (17)    -Z,     Y,     X 
+ (18)     X,    -Z,     Y 
+ (19)    -Z,     Y,    -X 
+ (20)    -X,    -Z,     Y 
+ (21)     X,    -Z,    -Y 
+ (22)    -Y,     X,    -Z 
+ (23)    -Z,    -Y,     X 
+ (24)     Y,    -X,    -Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+     Br     Br     XU   0.50000   0.50000   0.50000   1.000    m3m    1    I 0.10354                                                
+     Cs     Cs     XU   0.00000   0.00000   0.00000   1.000    m3m    1    I 0.10242                                                
+
+ Unit cell: a = 4.29717 b = 4.29717 c = 4.29717 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 79.350 Refine? True
+
+ Spherical harmonics texture: Order:0
+
+ Phase name: PbBr2
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Br        17.17890   5.23580   5.63770   3.98510   2.17230  16.57960   0.26090  41.43280   2.95570
+ Pb        31.06170  13.06370  18.44200   5.96960   0.69020   2.35760   8.61800  47.25790  13.41180
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Br      Nat. Abund.     79.904    0.679
+ Pb      Nat. Abund.    207.200    0.940
+
+ Space Group: P n m a
+ The lattice is centrosymmetric primitive orthorhombic
+ The Laue symmetry is mmm
+ The lattice point group is mmm
+ Multiplicity of a general site is 8
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ ( 1)     X,     Y,     Z 
+ ( 2) 1/2-X, 1/2+Y, 1/2+Z 
+ ( 3)     X, 1/2-Y,     Z 
+ ( 4) 1/2-X,    -Y, 1/2+Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Br1     Br     XU   0.01967   0.25000   0.66598   1.000   m(y)    4    I 0.10283                                                
+    Br2     Br     XU   0.15001   0.25000   0.06970   1.000   m(y)    4    I 0.07873                                                
+    Pb1     Pb     XU   0.23647   0.25000   0.41067   1.000   m(y)    4    I 0.10435                                                
+
+ Unit cell: a = 8.06517 b = 4.73412 c = 9.54722 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 364.527 Refine? True
+
+ Spherical harmonics texture: Order:0
+
+ Phase name: CsPbBr3-Pbnm
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Cs        20.38920  19.10620  10.66200   1.49530   3.56900   0.31070  24.38790 213.90400   3.33520
+ Pb        31.06170  13.06370  18.44200   5.96960   0.69020   2.35760   8.61800  47.25790  13.41180
+ Br        17.17890   5.23580   5.63770   3.98510   2.17230  16.57960   0.26090  41.43280   2.95570
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Cs      Nat. Abund.    132.905    0.542
+ Pb      Nat. Abund.    207.200    0.940
+ Br      Nat. Abund.     79.904    0.679
+
+ Space Group: P b n m
+ The lattice is centrosymmetric primitive orthorhombic
+ The Laue symmetry is mmm
+ The lattice point group is mmm
+ Multiplicity of a general site is 8
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ ( 1)     X,     Y,     Z 
+ ( 2) 1/2-X, 1/2+Y,     Z 
+ ( 3) 1/2+X, 1/2-Y, 1/2+Z 
+ ( 4)    -X,    -Y, 1/2+Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Cs1     Cs     XU   0.97945   0.99756   0.25000   1.000   m(z)    4    I 0.11736                                                
+    Pb2     Pb     XU   0.50000   0.00000   0.00000   1.000     -1    4    I 0.08955                                                
+    Br3     Br     XU   0.03880   0.40906   0.25000   1.000   m(z)    4    I 0.07792                                                
+    Br4     Br     XU   0.82770   0.22841   0.00433   1.000      1    8    I 0.07989                                                
+
+ Unit cell: a = 8.21642 b = 8.25376 c = 11.75795 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 797.381 Refine? True
+
+ Spherical harmonics texture: Order:0
+
+ Phase name: Cs4PbBr6-fit
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Pb        31.06170  13.06370  18.44200   5.96960   0.69020   2.35760   8.61800  47.25790  13.41180
+ Cs        20.38920  19.10620  10.66200   1.49530   3.56900   0.31070  24.38790 213.90400   3.33520
+ Br        17.17890   5.23580   5.63770   3.98510   2.17230  16.57960   0.26090  41.43280   2.95570
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Pb      Nat. Abund.    207.200    0.940
+ Cs      Nat. Abund.    132.905    0.542
+ Br      Nat. Abund.     79.904    0.679
+
+ Space Group: R -3 c
+ The lattice is centrosymmetric R-centered trigonal
+ The Laue symmetry is 3m1
+ The lattice point group is -3m
+ Multiplicity of a general site is 36
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ (0,0,0; 2/3,1/3,1/3; 1/3,2/3,2/3)+
+
+ ( 1)     X,     Y,     Z 
+ ( 2)    -Y,   X-Y,     Z 
+ ( 3)   Y-X,    -X,     Z 
+ ( 4)   Y-X,     Y, 1/2+Z 
+ ( 5)    -Y,    -X, 1/2+Z 
+ ( 6)     X,   X-Y, 1/2+Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Pb1     Pb     XU   0.00000   0.00000   0.00000   1.000     -3    6    I 0.00242                                                
+    Cs2     Cs     XU  -0.29980  -0.33330  -0.08330   1.000 2(100)   18    I-0.28460                                                
+    Cs3     Cs     XU   0.00000   0.00000   0.25000   1.00032(100)    6    I 0.01569                                                
+    Br4     Br     XU  -0.02425  -0.15657  -0.09407   1.000      1   36    I 0.06718                                                
+
+ Unit cell: a = 13.72506 b = 13.72506 c = 17.32553 alpha = 90.000 beta = 90.000 gamma = 120.000 volume = 2826.479 Refine? True
+
+ Spherical harmonics texture: Order:0
+
+ Phase: CsBr in histogram: PWDR YN30_10N_speed1.0_groundCs_CsPbBr3_60min_20240616_150817_G01_S01.xye
+=======================================================================================================================================
+ Phase fraction  :    87.8618 Refine? True
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model:  uniaxial equatorial:      1000.0 Refine? False axial:      1000.0 Refine? True
+	 LG mixing coeff.:      1.0000 Refine? True
+
+ Hydrostatic/elastic strain:
+ names :         D11          eA
+ values:           0           0
+ refine:       False       False
+
+ Phase: PbBr2 in histogram: PWDR YN30_10N_speed1.0_groundCs_CsPbBr3_60min_20240616_150817_G01_S01.xye
+=======================================================================================================================================
+ Phase fraction  :    20.0470 Refine? True
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model:  uniaxial equatorial:      1000.0 Refine? False axial:      1000.0 Refine? True
+	 LG mixing coeff.:      1.0000 Refine? True
+
+ Hydrostatic/elastic strain:
+ names :         D11         D22         D33
+ values:           0           0           0
+ refine:       False       False       False
+
+ Phase: CsPbBr3-Pbnm in histogram: PWDR YN30_10N_speed1.0_groundCs_CsPbBr3_60min_20240616_150817_G01_S01.xye
+=======================================================================================================================================
+ Phase fraction  :     2.5449 Refine? True
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model:  uniaxial equatorial:      1000.0 Refine? False axial:      1000.0 Refine? True
+	 LG mixing coeff.:      1.0000 Refine? True
+
+ Hydrostatic/elastic strain:
+ names :         D11         D22         D33
+ values:           0           0           0
+ refine:       False       False       False
+
+ Phase: Cs4PbBr6-fit in histogram: PWDR YN30_10N_speed1.0_groundCs_CsPbBr3_60min_20240616_150817_G01_S01.xye
+=======================================================================================================================================
+ Phase fraction  :     0.1730 Refine? True
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model:  uniaxial equatorial:      1000.0 Refine? False axial:      1000.0 Refine? True
+	 LG mixing coeff.:      1.0000 Refine? True
+
+ Hydrostatic/elastic strain:
+ names :         D11         D33
+ values:           0           0
+ refine:       False       False
+
+ Histogram: PWDR YN30_10N_speed1.0_groundCs_CsPbBr3_60min_20240616_150817_G01_S01.xye histogram Id: 0
+=======================================================================================================================================
+ Instrument type: Bragg-Brentano
+ Histogram limits:    10.00 deg to    50.00 deg
+
+ Sample Parameters:
+ Goniometer omega = 0.00, chi = 0.00, phi = 0.00
+ name  :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ value :        1.0000      202.6520        0.0000        0.0000        0.2024
+ refine:         False          True         False         False          True
+
+ Instrument Parameters:
+ name  :     Azimuth        Bank I(L2)/I(L1)        Lam1        Lam2    Polariz.        SH/L
+ value :    0.000000    1.000000    0.500000    1.540500    1.544300    0.700000    0.002000
+ refine:                   False       False                               False       False
+
+ name  :           U           V           W           X           Y           Z        Zero
+ value :  -35.322773   -2.000000   24.443537    2.990970   -4.667062    0.000000    0.000000
+ refine:        True       False        True        True        True       False       False
+
+ Background function: cosine Refine? True
+ Coefficients:    549.144   356.152   168.031    46.059   -16.584    -0.458
+
+ Refinement results:
+---------------------------------------------------------------------------------------------------------------------------------------
+ Number of function calls: 13 No. of observations: 4001 No. of parameters: 63 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    9.589s,    2.397s/cycle, for 4 cycles
+ wR =    7.29%, chi**2 =      16779.3, GOF =   2.06
+----------------------------------------------------------------------------------------------------------------------------------
+Parameters generated by constraints
+
+ name  :          0::A0          3::A0
+ value :        0.05415        0.00708
+ sig   :        0.00000        0.00000
+
+ Phases:
+ Result for phase: CsBr
+=======================================================================================================================================
+ Reciprocal metric tensor: 
+  names :            A11            A22            A33            A12            A13            A23
+  values:    0.054150867    0.054150867    0.054150867    0.000000000    0.000000000    0.000000000
+  esds  :    0.000003364                                                                           
+ New unit cell:
+  names :           a           b           c       alpha        beta       gamma      Volume
+  values:    4.297316    4.297316    4.297316     90.0000     90.0000     90.0000      79.358
+  esds  :    0.000133    0.000133    0.000133                                           0.007
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+     Br     Br:
+ values:   0.50000   0.50000   0.50000   1.000 0.10260
+ sig   :                                       0.00449
+     Cs     Cs:
+ values:   0.00000   0.00000   0.00000   1.000 0.09877
+ sig   :                                       0.00413
+
+ Density: 4.452947.4 g/cm**3
+ Result for phase: PbBr2
+=======================================================================================================================================
+ Reciprocal metric tensor: 
+  names :            A11            A22            A33            A12            A13            A23
+  values:    0.015373306    0.044609269    0.010971109    0.000000000    0.000000000    0.000000000
+  esds  :    0.000000859    0.000002711    0.000000604                                             
+ New unit cell:
+  names :           a           b           c       alpha        beta       gamma      Volume
+  values:    8.065223    4.734645    9.547172     90.0000     90.0000     90.0000     364.568
+  esds  :    0.000225    0.000144    0.000263                                           0.021
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Br1     Br:
+ values:   0.02101   0.25000   0.66613   1.000 0.11530
+ sig   :   0.00063             0.00047         0.00538
+    Br2     Br:
+ values:   0.15020   0.25000   0.07019   1.000 0.07141
+ sig   :   0.00043             0.00052         0.00471
+    Pb1     Pb:
+ values:   0.23603   0.25000   0.41113   1.000 0.10162
+ sig   :   0.00033             0.00021         0.00395
+
+ Density: 6.686615.4 g/cm**3
+ Result for phase: CsPbBr3-Pbnm
+=======================================================================================================================================
+ Reciprocal metric tensor: 
+  names :            A11            A22            A33            A12            A13            A23
+  values:    0.014808131    0.014647666    0.007246310    0.000000000    0.000000000    0.000000000
+  esds  :    0.000004221    0.000004410    0.000002750                                             
+ New unit cell:
+  names :           a           b           c       alpha        beta       gamma      Volume
+  values:    8.217692    8.262582   11.747394     90.0000     90.0000     90.0000     797.641
+  esds  :    0.001171    0.001244    0.002229                                           0.127
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Cs1     Cs:
+ values:   0.97542   1.00160   0.25000   1.000 0.12020
+ sig   :   0.00361   0.00228                   0.00865
+    Pb2     Pb:
+ values:   0.50000   0.00000   0.00000   1.000 0.09061
+ sig   :                                       0.00600
+    Br3     Br:
+ values:   0.03578   0.39887   0.25000   1.000 0.06309
+ sig   :   0.00514   0.00452                   0.01506
+    Br4     Br:
+ values:   0.82762   0.23777  -0.00102   1.000 0.06472
+ sig   :   0.00182   0.00267   0.00399         0.01026
+
+ Density: 4.828287.4 g/cm**3
+ Result for phase: Cs4PbBr6-fit
+=======================================================================================================================================
+ Reciprocal metric tensor: 
+  names :            A11            A22            A33            A12            A13            A23
+  values:    0.007080993    0.007080993    0.003333258    0.007080993    0.000000000    0.000000000
+  esds  :    0.000001859                   0.000001551                                             
+ New unit cell:
+  names :           a           b           c       alpha        beta       gamma      Volume
+  values:   13.722154   13.722154   17.320703     90.0000     90.0000    120.0000    2824.494
+  esds  :    0.003002    0.003002    0.004029                                           0.809
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Pb1     Pb:
+ values:   0.00000   0.00000   0.00000   1.000 0.04806
+ sig   :                                       0.02053
+    Cs2     Cs:
+ values:  -0.28586  -0.33330  -0.08330   1.000-0.30652
+ sig   :   0.00292                             0.01378
+    Cs3     Cs:
+ values:   0.00000   0.00000   0.25000   1.000 0.03231
+ sig   :                                       0.02459
+    Br4     Br:
+ values:  -0.00032  -0.16759  -0.10094   1.000 0.05355
+ sig   :   0.00584   0.00487   0.00331         0.01577
+
+ Density: 4.297285.4 g/cm**3
+
+ Phase: CsBr in histogram: PWDR YN30_10N_speed1.0_groundCs_CsPbBr3_60min_20240616_150817_G01_S01.xye
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 0.93%, 0.58% on 5 reflections
+ Durbin-Watson statistic = 0.361
+ Bragg intensity sum = 3.78e+05
+ Phase fraction  :   91.43610, sig    3.90449 Weight fraction  :  0.33144, sig    0.01415
+
+ Mustrain model:  uniaxial
+ equatorial:      1000.0 axial:       700.2, sig:   395.3 LG mix coeff.:      2.0096, sig:   0.189
+
+ Phase: PbBr2 in histogram: PWDR YN30_10N_speed1.0_groundCs_CsPbBr3_60min_20240616_150817_G01_S01.xye
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 3.72%, 6.46% on 41 reflections
+ Durbin-Watson statistic = 0.361
+ Bragg intensity sum = 7.96e+05
+ Phase fraction  :   20.82711, sig    0.95726 Weight fraction  :  0.52078, sig    0.02394
+
+ Mustrain model:  uniaxial
+ equatorial:      1000.0 axial:       288.5, sig:    29.8 LG mix coeff.:      3.5335, sig:   0.155
+
+ Phase: CsPbBr3-Pbnm in histogram: PWDR YN30_10N_speed1.0_groundCs_CsPbBr3_60min_20240616_150817_G01_S01.xye
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 4.86%, 6.02% on 77 reflections
+ Durbin-Watson statistic = 0.361
+ Bragg intensity sum = 1.95e+05
+ Phase fraction  :    3.01919, sig    0.16349 Weight fraction  :  0.11927, sig    0.00646
+
+ Mustrain model:  uniaxial
+ equatorial:      1000.0 axial:      3844.0, sig:   410.3 LG mix coeff.:      3.2619, sig:   0.226
+
+ Phase: Cs4PbBr6-fit in histogram: PWDR YN30_10N_speed1.0_groundCs_CsPbBr3_60min_20240616_150817_G01_S01.xye
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 7.32%, 10.97% on 55 reflections
+ Durbin-Watson statistic = 0.361
+ Bragg intensity sum = 9.05e+04
+ Phase fraction  :    0.22899, sig    0.01064 Weight fraction  :  0.02851, sig    0.00132
+
+ Mustrain model:  uniaxial
+ equatorial:      1000.0 axial:      3457.6, sig:   726.8 LG mix coeff.:      3.2492, sig:   0.313
+
+ Histogram: PWDR YN30_10N_speed1.0_groundCs_CsPbBr3_60min_20240616_150817_G01_S01.xye histogram Id: 0
+=======================================================================================================================================
+ PWDR histogram weight factor = 1.000
+ Final refinement wR = 7.29% on 4001 observations in this histogram
+ Other residuals: R = 5.66%, R-bkg = 5.74%, wR-bkg = 7.29% wRmin = 3.56%
+ Instrument type: Bragg-Brentano
+
+ Resonant form factors:(ref: D.T. Cromer & D.A. Liberman (1981), Acta Cryst. A37, 267-268.)
+ Element:       Br       Cs       Pb
+ f'     :   -0.679   -0.745   -4.078
+ f"     :    1.281    7.902    8.501
+
+ Sample Parameters:
+ names :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ values:        1.0000      200.5578        0.0000        0.0000        0.2198
+ sig   :                      1.0825                                    0.0066
+
+ Instrument Parameters:
+ names :           U           V           W           X           Y           Z        Zero
+ value :  -55.750814   -2.000000   25.663235    2.215394   -7.692834    0.000000    0.000000
+ sig   :   13.148386                1.172431    0.547475    2.266853                        
+
+ Background function: cosine
+ value :      544.7     365.8     170.9     46.35     -15.7     1.492
+ sig   :      3.623     6.547     5.899     4.592     3.244     2.254
+ Background sums: empirical 1.69e+06, Debye 0, peaks 0, Total 1.69e+06

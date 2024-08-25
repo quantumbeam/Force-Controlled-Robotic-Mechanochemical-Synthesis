@@ -1,7 +1,8 @@
 ## Force-Controlled Robotic Mechanochemical Synthesis
 This page provides the Rietveld analysis results, scripts for robotic operation, and files for experimental setup related to the paper on Force-Controlled Robotic Mechanochemical Synthesis.
 
-## Rietveld Analysis
+## Rietveld and Kinetic Analysis
+see 
 The automated analysis method utilizes BBO-Rietveld.
 https://github.com/quantumbeam/BBO-Rietveld
 

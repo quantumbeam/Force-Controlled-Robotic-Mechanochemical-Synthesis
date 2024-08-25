@@ -1,0 +1,201 @@
+,trial,state,Rwp,datetime_start,datetime_complete,Backgroundrefine,Backgroundtype,Instrument_parametersrefineZero,Mustrainrefine,Numberofcoefficients,Peakshape_parametersrefineSH/L,Peakshape_parametersrefineU,Peakshape_parametersrefineV,Peakshape_parametersrefineW,Peakshape_parametersrefineX,Peakshape_parametersrefineY,Phase_parametersrefinephase0,Sample_parametersrefineShift,Sample_parametersrefineSurfRoughA,Sample_parametersrefineSurfRoughB,system_attrs_number
+0,0,TrialState.COMPLETE,11.143861970851585,2024-06-18 05:34:49.671553,2024-06-18 05:37:53.995808,True,cosine,False,True,2,False,False,True,False,True,True,False,False,False,True,0
+1,1,TrialState.COMPLETE,43.1588753381733,2024-06-18 05:34:49.675320,2024-06-18 05:36:33.727777,False,cosine,False,True,10,False,False,True,False,False,False,False,True,False,False,1
+2,2,TrialState.COMPLETE,74.72449875841737,2024-06-18 05:34:49.681216,2024-06-18 05:35:12.442488,False,Q^-2 power series,True,True,10,True,True,True,False,True,True,False,False,True,True,2
+3,3,TrialState.COMPLETE,16.651946609473093,2024-06-18 05:34:49.681263,2024-06-18 05:59:12.089900,True,inv interpolate,False,True,1,True,True,False,False,True,True,True,True,False,True,3
+4,4,TrialState.COMPLETE,74.84321821268065,2024-06-18 05:34:49.681457,2024-06-18 05:35:11.053461,False,inv interpolate,True,False,11,True,False,False,True,True,True,False,True,True,False,4
+5,5,TrialState.COMPLETE,74.72449875841737,2024-06-18 05:34:49.681597,2024-06-18 05:35:14.579553,False,cosine,True,True,2,True,True,False,False,False,True,True,False,True,False,5
+6,6,TrialState.COMPLETE,74.8434012769071,2024-06-18 05:34:49.686960,2024-06-18 05:35:12.166812,False,inv interpolate,True,False,12,True,False,False,False,True,False,True,True,True,True,6
+7,7,TrialState.COMPLETE,1000000000.0,2024-06-18 05:34:49.687438,2024-06-18 05:36:10.204889,False,chebyschev,True,False,8,True,True,False,True,True,True,False,True,False,False,7
+8,8,TrialState.COMPLETE,7.836682800502477,2024-06-18 05:34:49.687777,2024-06-18 05:38:42.700626,True,cosine,False,True,15,True,False,False,True,True,True,True,False,False,True,8
+9,9,TrialState.COMPLETE,10.28804380519719,2024-06-18 05:34:49.687820,2024-06-18 05:40:47.595219,True,chebyschev,False,True,13,True,True,False,False,False,False,False,True,False,True,9
+10,10,TrialState.COMPLETE,39.89254338002085,2024-06-18 05:35:11.061341,2024-06-18 05:36:26.547386,False,chebyschev,False,True,15,False,False,False,False,False,True,True,True,False,True,10
+11,11,TrialState.COMPLETE,74.72449875841737,2024-06-18 05:35:12.172630,2024-06-18 05:35:32.067920,False,chebyschev,True,False,11,False,False,True,True,True,False,False,True,True,False,11
+12,12,TrialState.COMPLETE,12.60466127611301,2024-06-18 05:35:12.456178,2024-06-18 05:36:05.036699,True,log interpolate,True,True,4,False,True,False,True,False,True,False,True,False,True,12
+13,13,TrialState.COMPLETE,74.72449875841737,2024-06-18 05:35:14.586073,2024-06-18 05:35:34.262029,False,Q^-2 power series,True,True,15,False,False,False,False,False,False,False,False,True,True,13
+14,14,TrialState.COMPLETE,75.04741403092338,2024-06-18 05:35:32.124479,2024-06-18 05:35:47.689042,False,Q^2 power series,False,False,15,True,False,True,True,True,False,False,False,True,True,14
+15,15,TrialState.COMPLETE,1000000000.0,2024-06-18 05:35:34.311926,2024-06-18 05:36:40.259261,False,log interpolate,False,False,16,False,False,False,False,False,True,True,True,False,True,15
+16,16,TrialState.COMPLETE,76.10829533361849,2024-06-18 05:35:47.696222,2024-06-18 05:36:06.977224,True,Q^2 power series,False,True,6,True,False,False,True,True,False,True,False,False,False,16
+17,17,TrialState.COMPLETE,1000000000.0,2024-06-18 05:36:05.044084,2024-06-18 05:37:04.398499,False,chebyschev,False,False,16,False,False,False,False,True,False,False,False,False,False,17
+18,18,TrialState.COMPLETE,1000000000.0,2024-06-18 05:36:06.982900,2024-06-18 05:37:23.826982,False,chebyschev,False,False,5,True,True,True,True,True,False,True,True,False,True,18
+19,19,TrialState.COMPLETE,9.54110896406496,2024-06-18 05:36:10.214350,2024-06-18 05:37:08.993798,True,cosine,True,True,12,False,False,False,True,False,False,True,True,False,False,19
+20,20,TrialState.COMPLETE,74.72449875841737,2024-06-18 05:36:26.563149,2024-06-18 05:36:42.505406,False,chebyschev,True,True,11,True,False,True,False,False,True,False,False,True,True,20
+21,21,TrialState.COMPLETE,75.04741403092338,2024-06-18 05:36:33.739003,2024-06-18 05:36:49.683419,False,Q^-2 power series,False,False,16,True,False,False,False,True,True,True,False,True,False,21
+22,22,TrialState.COMPLETE,1000000000.0,2024-06-18 05:36:40.268910,2024-06-18 05:38:13.740420,False,log interpolate,False,False,6,True,False,True,True,True,False,True,True,False,True,22
+23,23,TrialState.COMPLETE,76.10825109076723,2024-06-18 05:36:42.557657,2024-06-18 05:36:49.654176,True,inv interpolate,True,False,8,True,True,True,False,True,False,True,True,False,False,23
+24,24,TrialState.COMPLETE,76.10825109076723,2024-06-18 05:36:49.663768,2024-06-18 05:36:56.335260,True,inv interpolate,True,True,5,True,True,False,True,False,False,True,False,True,True,24
+25,25,TrialState.COMPLETE,75.16209691335197,2024-06-18 05:36:49.709063,2024-06-18 05:37:03.814557,False,log interpolate,False,True,8,False,True,True,True,True,True,True,True,True,False,25
+26,26,TrialState.COMPLETE,29.586328343364503,2024-06-18 05:36:56.355343,2024-06-18 05:37:13.216286,True,cosine,False,False,13,True,True,False,False,False,True,True,True,True,False,26
+27,27,TrialState.COMPLETE,9.80454396566788,2024-06-18 05:37:03.832299,2024-06-18 05:38:26.254818,True,chebyschev,True,False,16,True,False,True,False,True,False,True,True,False,False,27
+28,28,TrialState.COMPLETE,76.10825109076723,2024-06-18 05:37:04.410705,2024-06-18 05:37:13.076602,True,inv interpolate,True,True,12,False,False,False,False,True,False,True,False,False,False,28
+29,29,TrialState.COMPLETE,17.287572653834232,2024-06-18 05:37:09.019872,2024-06-18 05:38:03.637001,True,cosine,True,True,1,False,True,False,True,False,True,True,True,False,True,29
+30,30,TrialState.COMPLETE,17.42262458481263,2024-06-18 05:37:13.090802,2024-06-18 05:38:14.756824,True,cosine,False,True,1,False,True,False,True,False,True,True,True,False,False,30
+31,31,TrialState.COMPLETE,1000000000.0,2024-06-18 05:37:13.243142,2024-06-18 05:38:30.934837,True,cosine,True,True,2,False,True,False,True,False,True,True,True,False,False,31
+32,32,TrialState.COMPLETE,1000000000.0,2024-06-18 05:37:23.842844,2024-06-18 05:38:40.347057,True,cosine,True,True,2,False,True,False,True,False,True,True,True,False,False,32
+33,33,TrialState.COMPLETE,17.25419590532218,2024-06-18 05:37:54.009746,2024-06-18 05:38:45.801190,True,cosine,True,True,1,False,True,True,True,False,True,False,True,False,True,33
+34,34,TrialState.COMPLETE,12.250002739188067,2024-06-18 05:38:03.675842,2024-06-18 05:39:02.164997,True,log interpolate,True,True,3,False,False,True,True,False,True,False,True,False,True,34
+35,35,TrialState.COMPLETE,12.170753740939421,2024-06-18 05:38:13.762157,2024-06-18 05:39:22.804006,True,cosine,True,True,3,False,True,False,True,False,True,False,True,False,True,35
+36,36,TrialState.COMPLETE,10.516659868585524,2024-06-18 05:38:14.785482,2024-06-18 05:39:16.650712,True,cosine,True,True,3,False,False,True,True,False,True,False,True,False,True,36
+37,37,TrialState.COMPLETE,11.400568787399848,2024-06-18 05:38:26.270766,2024-06-18 05:39:34.088283,True,cosine,True,True,14,False,False,True,False,True,False,True,True,False,False,37
+38,38,TrialState.COMPLETE,11.400568787399848,2024-06-18 05:38:30.960656,2024-06-18 05:39:38.910375,True,cosine,True,True,14,False,False,True,False,True,False,False,True,False,False,38
+39,39,TrialState.COMPLETE,10.692233389934009,2024-06-18 05:38:40.362316,2024-06-18 05:39:43.911549,True,cosine,True,True,14,False,False,True,False,True,False,False,False,False,False,39
+40,40,TrialState.COMPLETE,9.251750853285541,2024-06-18 05:38:42.769895,2024-06-18 05:39:43.434210,True,cosine,False,True,14,False,False,True,False,True,False,True,False,False,True,40
+41,41,TrialState.COMPLETE,9.251750853285541,2024-06-18 05:38:45.820881,2024-06-18 05:39:54.067775,True,cosine,False,True,14,False,False,True,False,True,False,True,False,False,True,41
+42,42,TrialState.COMPLETE,9.11172481162093,2024-06-18 05:39:02.214944,2024-06-18 05:40:12.536473,True,cosine,False,True,14,True,False,True,False,True,False,True,False,False,True,42
+43,43,TrialState.COMPLETE,8.5238667596463,2024-06-18 05:39:16.685066,2024-06-18 05:42:17.124802,True,cosine,True,True,14,True,False,True,True,True,False,True,True,False,True,43
+44,44,TrialState.COMPLETE,10.092787368596955,2024-06-18 05:39:22.836169,2024-06-18 05:43:29.176512,True,cosine,True,True,14,True,False,True,True,True,False,True,True,False,False,44
+45,45,TrialState.COMPLETE,7.668228426704276,2024-06-18 05:39:34.106796,2024-06-18 05:42:47.393086,True,cosine,True,True,14,True,False,True,True,True,False,True,False,False,True,45
+46,46,TrialState.COMPLETE,7.704581049070201,2024-06-18 05:39:38.935997,2024-06-18 05:41:45.624530,True,cosine,True,True,9,True,False,True,True,True,False,True,False,False,True,46
+47,47,TrialState.COMPLETE,10.414169447651105,2024-06-18 05:39:43.485929,2024-06-18 05:41:00.549020,True,cosine,False,True,13,True,False,True,False,True,False,True,False,False,False,47
+48,48,TrialState.COMPLETE,76.1082951195555,2024-06-18 05:39:43.946277,2024-06-18 05:40:08.511864,True,Q^2 power series,False,True,13,True,False,True,False,True,False,True,False,False,True,48
+49,49,TrialState.COMPLETE,9.279158627827378,2024-06-18 05:39:54.099034,2024-06-18 05:40:46.679095,True,cosine,False,True,13,False,False,True,False,True,False,True,False,False,True,49
+50,50,TrialState.COMPLETE,9.160210021949986,2024-06-18 05:40:08.538759,2024-06-18 05:41:00.711874,True,cosine,False,True,13,True,False,True,False,True,False,True,False,False,True,50
+51,51,TrialState.COMPLETE,9.160210021949986,2024-06-18 05:40:12.585898,2024-06-18 05:41:06.331841,True,cosine,False,True,13,True,False,True,False,True,False,True,False,False,True,51
+52,52,TrialState.COMPLETE,9.160210021949986,2024-06-18 05:40:46.698340,2024-06-18 05:41:41.773109,True,cosine,False,True,13,True,False,True,False,True,False,True,False,False,True,52
+53,53,TrialState.COMPLETE,9.109798524649536,2024-06-18 05:40:47.651382,2024-06-18 05:41:45.530995,True,cosine,False,True,15,True,False,True,False,True,False,True,False,False,True,53
+54,54,TrialState.COMPLETE,9.155223116475488,2024-06-18 05:41:00.570199,2024-06-18 05:41:55.533696,True,cosine,False,True,10,True,False,True,False,True,False,True,False,False,True,54
+55,55,TrialState.COMPLETE,9.109798524649536,2024-06-18 05:41:00.766643,2024-06-18 05:41:59.692233,True,cosine,False,True,15,True,False,True,False,True,False,True,False,False,True,55
+56,56,TrialState.COMPLETE,9.155223116475488,2024-06-18 05:41:06.370492,2024-06-18 05:41:58.919436,True,cosine,False,True,10,True,False,True,False,True,False,True,False,False,True,56
+57,57,TrialState.COMPLETE,10.492525136002847,2024-06-18 05:41:41.795409,2024-06-18 05:42:40.575268,True,Q^-2 power series,False,True,10,True,False,True,False,True,False,True,False,False,True,57
+58,58,TrialState.COMPLETE,11.630703369723813,2024-06-18 05:41:45.551972,2024-06-18 05:42:57.219652,True,Q^-2 power series,False,True,9,True,False,True,False,True,False,True,False,False,True,58
+59,59,TrialState.COMPLETE,9.155223116475488,2024-06-18 05:41:45.679329,2024-06-18 05:42:37.942368,True,cosine,False,True,10,True,False,True,False,True,False,True,False,False,True,59
+60,60,TrialState.COMPLETE,11.630703369723813,2024-06-18 05:41:55.576020,2024-06-18 05:43:12.019879,True,Q^-2 power series,False,True,9,True,False,True,False,True,False,True,False,False,True,60
+61,61,TrialState.COMPLETE,11.630703369723813,2024-06-18 05:41:58.965949,2024-06-18 05:43:09.435749,True,Q^-2 power series,False,True,9,True,False,True,False,True,False,True,False,False,True,61
+62,62,TrialState.COMPLETE,11.630703369723813,2024-06-18 05:41:59.716902,2024-06-18 05:43:13.578376,True,Q^-2 power series,False,True,9,True,False,True,False,True,False,True,False,False,True,62
+63,63,TrialState.COMPLETE,10.772883516912328,2024-06-18 05:42:17.147716,2024-06-18 05:44:03.621914,True,Q^-2 power series,False,True,15,True,False,True,True,True,False,True,False,False,True,63
+64,64,TrialState.COMPLETE,10.772883516912328,2024-06-18 05:42:37.959020,2024-06-18 05:44:18.138469,True,Q^-2 power series,False,True,15,True,False,True,True,True,False,True,False,False,True,64
+65,65,TrialState.COMPLETE,76.10829517357462,2024-06-18 05:42:40.604895,2024-06-18 05:43:05.715139,True,Q^2 power series,False,True,15,True,False,True,True,True,False,True,False,False,True,65
+66,66,TrialState.COMPLETE,76.10829344466443,2024-06-18 05:42:47.418501,2024-06-18 05:43:12.750359,True,Q^2 power series,True,True,15,True,False,True,True,True,False,True,False,False,True,66
+67,67,TrialState.COMPLETE,76.10829344466443,2024-06-18 05:42:57.249234,2024-06-18 05:43:18.360047,True,Q^2 power series,True,True,15,True,False,True,True,True,False,True,False,False,True,67
+68,68,TrialState.COMPLETE,1000000000.0,2024-06-18 05:43:05.754924,2024-06-18 05:46:10.692051,True,cosine,True,True,15,True,False,True,True,True,False,True,False,False,True,68
+69,69,TrialState.COMPLETE,1000000000.0,2024-06-18 05:43:09.485744,2024-06-18 05:46:12.867939,True,cosine,True,True,15,True,False,True,True,True,False,True,False,False,True,69
+70,70,TrialState.COMPLETE,1000000000.0,2024-06-18 05:43:12.070520,2024-06-18 05:46:15.336553,True,cosine,True,True,15,True,False,True,True,True,False,True,False,False,True,70
+71,71,TrialState.COMPLETE,1000000000.0,2024-06-18 05:43:12.776535,2024-06-18 05:46:11.613545,True,cosine,True,True,15,True,False,True,True,True,False,True,False,False,True,71
+72,72,TrialState.COMPLETE,1000000000.0,2024-06-18 05:43:13.656753,2024-06-18 05:46:11.694423,True,cosine,True,True,15,True,False,True,True,True,False,True,False,False,True,72
+73,73,TrialState.COMPLETE,8.064490675214504,2024-06-18 05:43:18.431717,2024-06-18 05:45:41.254344,True,cosine,True,True,16,True,False,True,True,True,False,True,False,False,True,73
+74,74,TrialState.COMPLETE,8.064490675214504,2024-06-18 05:43:29.225614,2024-06-18 05:45:43.518633,True,cosine,True,True,16,True,False,True,True,True,False,True,False,False,True,74
+75,75,TrialState.COMPLETE,8.064490675214504,2024-06-18 05:44:03.650573,2024-06-18 05:46:11.332112,True,cosine,True,True,16,True,False,True,True,True,False,True,False,False,True,75
+76,76,TrialState.COMPLETE,8.064490675214504,2024-06-18 05:44:18.167288,2024-06-18 05:46:32.285168,True,cosine,True,True,16,True,False,True,True,True,False,True,False,False,True,76
+77,77,TrialState.COMPLETE,8.064490675214504,2024-06-18 05:45:41.282887,2024-06-18 05:48:08.052242,True,cosine,True,True,16,True,False,True,True,True,False,True,False,False,True,77
+78,78,TrialState.COMPLETE,8.064490675214504,2024-06-18 05:45:43.550057,2024-06-18 05:48:07.550974,True,cosine,True,True,16,True,False,True,True,True,False,True,False,False,True,78
+79,79,TrialState.COMPLETE,8.064490675214504,2024-06-18 05:46:10.710999,2024-06-18 05:48:41.224367,True,cosine,True,True,16,True,False,True,True,True,False,True,False,False,True,79
+80,80,TrialState.COMPLETE,8.064490675214504,2024-06-18 05:46:11.360922,2024-06-18 05:48:44.130131,True,cosine,True,True,16,True,False,True,True,True,False,True,False,False,True,80
+81,81,TrialState.COMPLETE,8.064490675214504,2024-06-18 05:46:11.721160,2024-06-18 05:48:40.128350,True,cosine,True,True,16,True,False,True,True,True,False,True,False,False,True,81
+82,82,TrialState.COMPLETE,8.064490675214504,2024-06-18 05:46:11.769475,2024-06-18 05:48:44.407275,True,cosine,True,True,16,True,False,True,True,True,False,True,False,False,True,82
+83,83,TrialState.COMPLETE,76.10825109076723,2024-06-18 05:46:12.934741,2024-06-18 05:46:19.144861,True,inv interpolate,True,True,16,True,False,True,True,True,False,True,False,False,True,83
+84,84,TrialState.COMPLETE,76.10825109076723,2024-06-18 05:46:15.431457,2024-06-18 05:46:24.174767,True,inv interpolate,True,True,16,True,False,True,True,True,False,True,False,True,True,84
+85,85,TrialState.COMPLETE,1000000000.0,2024-06-18 05:46:19.192989,2024-06-18 05:46:43.340827,True,cosine,True,True,16,True,False,False,True,True,False,True,False,True,True,85
+86,86,TrialState.COMPLETE,10.448975496662511,2024-06-18 05:46:24.231485,2024-06-18 06:07:02.574552,True,cosine,True,True,16,True,False,False,True,True,True,True,False,False,True,86
+87,87,TrialState.COMPLETE,10.448975496662511,2024-06-18 05:46:32.362155,2024-06-18 06:07:14.217973,True,cosine,True,True,16,True,False,False,True,True,True,True,False,False,True,87
+88,88,TrialState.COMPLETE,7.92740712514219,2024-06-18 05:46:43.434964,2024-06-18 05:48:09.297063,True,cosine,True,True,7,True,False,False,True,True,True,True,False,False,True,88
+89,89,TrialState.COMPLETE,7.881750043074619,2024-06-18 05:48:07.571989,2024-06-18 05:50:19.915393,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,89
+90,90,TrialState.COMPLETE,8.064490675214504,2024-06-18 05:48:08.087520,2024-06-18 05:50:37.734236,True,cosine,True,True,16,True,False,True,True,True,False,True,False,False,True,90
+91,91,TrialState.COMPLETE,8.095329104170437,2024-06-18 05:48:09.332757,2024-06-18 05:49:45.356416,True,cosine,True,True,6,True,False,False,True,True,True,True,False,False,True,91
+92,92,TrialState.COMPLETE,7.92740712514219,2024-06-18 05:48:40.151647,2024-06-18 05:50:15.515323,True,cosine,True,True,7,True,False,False,True,True,True,True,False,False,True,92
+93,93,TrialState.COMPLETE,7.881750043074619,2024-06-18 05:48:41.248266,2024-06-18 05:50:54.896653,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,93
+94,94,TrialState.COMPLETE,8.086305380694666,2024-06-18 05:48:44.186202,2024-06-18 05:50:22.907212,True,log interpolate,True,False,6,True,False,False,True,True,True,True,False,False,True,94
+95,95,TrialState.COMPLETE,1000000000.0,2024-06-18 05:48:44.525706,2024-06-18 05:49:30.156073,False,log interpolate,True,False,7,True,False,False,True,True,True,True,False,False,True,95
+96,96,TrialState.COMPLETE,8.095329104170437,2024-06-18 05:49:30.189551,2024-06-18 05:51:00.091961,True,cosine,True,True,6,True,False,False,True,True,True,True,False,False,True,96
+97,97,TrialState.COMPLETE,7.978153698957787,2024-06-18 05:49:45.390854,2024-06-18 05:51:37.181723,True,chebyschev,True,True,5,True,False,False,True,True,True,True,False,False,True,97
+98,98,TrialState.COMPLETE,7.996761911678957,2024-06-18 05:50:15.542083,2024-06-18 05:51:59.309208,True,chebyschev,True,True,7,True,False,False,True,True,True,True,False,False,True,98
+99,99,TrialState.COMPLETE,7.881750043074619,2024-06-18 05:50:19.950503,2024-06-18 05:52:24.515642,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,99
+100,100,TrialState.COMPLETE,7.881750043074619,2024-06-18 05:50:23.015016,2024-06-18 05:52:28.806579,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,100
+101,101,TrialState.COMPLETE,7.881750043074619,2024-06-18 05:50:37.766577,2024-06-18 05:52:39.194227,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,101
+102,102,TrialState.COMPLETE,7.881750043074619,2024-06-18 05:50:54.924103,2024-06-18 05:52:57.233093,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,102
+103,103,TrialState.COMPLETE,7.881750043074619,2024-06-18 05:51:00.157428,2024-06-18 05:53:01.517361,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,103
+104,104,TrialState.COMPLETE,7.996761911678957,2024-06-18 05:51:37.218180,2024-06-18 05:53:17.054578,True,chebyschev,True,True,7,True,False,False,True,True,True,True,False,False,True,104
+105,105,TrialState.COMPLETE,7.996761911678957,2024-06-18 05:51:59.333651,2024-06-18 05:53:41.602050,True,chebyschev,True,True,7,True,False,False,True,True,True,True,False,False,True,105
+106,106,TrialState.COMPLETE,7.996761911678957,2024-06-18 05:52:24.539884,2024-06-18 05:54:08.007369,True,chebyschev,True,True,7,True,False,False,True,True,True,True,False,False,True,106
+107,107,TrialState.COMPLETE,7.881750043074619,2024-06-18 05:52:28.845431,2024-06-18 05:54:35.280797,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,107
+108,108,TrialState.COMPLETE,7.881750043074619,2024-06-18 05:52:39.232934,2024-06-18 05:54:43.330019,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,108
+109,109,TrialState.COMPLETE,8.27405877743709,2024-06-18 05:52:57.260233,2024-06-18 05:55:37.514924,True,log interpolate,True,True,8,True,False,False,True,True,True,True,False,False,True,109
+110,110,TrialState.COMPLETE,8.27405877743709,2024-06-18 05:53:01.571976,2024-06-18 05:55:40.768239,True,log interpolate,True,True,8,True,False,False,True,True,True,True,False,False,True,110
+111,111,TrialState.COMPLETE,8.27405877743709,2024-06-18 05:53:17.121090,2024-06-18 05:55:56.653860,True,log interpolate,True,True,8,True,False,False,True,True,True,True,False,False,True,111
+112,112,TrialState.COMPLETE,8.27405877743709,2024-06-18 05:53:41.686225,2024-06-18 05:56:19.854619,True,log interpolate,True,True,8,True,False,False,True,True,True,True,False,False,True,112
+113,113,TrialState.COMPLETE,8.27405877743709,2024-06-18 05:54:08.034935,2024-06-18 05:56:49.485611,True,log interpolate,True,True,8,True,False,False,True,True,True,True,False,False,True,113
+114,114,TrialState.COMPLETE,8.27405877743709,2024-06-18 05:54:35.325111,2024-06-18 05:57:20.652136,True,log interpolate,True,True,8,True,False,False,True,True,True,True,False,False,True,114
+115,115,TrialState.COMPLETE,8.27405877743709,2024-06-18 05:54:43.369356,2024-06-18 05:57:29.285628,True,log interpolate,True,True,8,True,False,False,True,True,True,True,False,False,True,115
+116,116,TrialState.COMPLETE,1000000000.0,2024-06-18 05:55:37.542912,2024-06-18 05:56:27.511152,False,log interpolate,True,True,8,True,False,False,True,True,True,True,False,False,True,116
+117,117,TrialState.COMPLETE,8.27405877743709,2024-06-18 05:55:40.808723,2024-06-18 05:58:36.983396,True,log interpolate,True,True,8,True,False,False,True,True,True,True,False,False,True,117
+118,118,TrialState.COMPLETE,1000000000.0,2024-06-18 05:55:56.732926,2024-06-18 05:56:51.114761,False,log interpolate,True,True,5,True,False,False,True,True,True,True,False,False,True,118
+119,119,TrialState.COMPLETE,1000000000.0,2024-06-18 05:56:19.883563,2024-06-18 05:57:12.781833,False,log interpolate,True,True,6,True,False,False,True,True,True,True,False,False,True,119
+120,120,TrialState.COMPLETE,8.057975407670463,2024-06-18 05:56:27.556510,2024-06-18 05:58:19.416002,True,log interpolate,True,True,6,True,False,False,True,True,True,True,False,False,True,120
+121,121,TrialState.COMPLETE,7.981418268244705,2024-06-18 05:56:49.533457,2024-06-18 05:58:28.514288,True,log interpolate,True,True,5,True,False,False,True,True,True,True,False,False,True,121
+122,122,TrialState.COMPLETE,8.057975407670463,2024-06-18 05:56:51.163629,2024-06-18 05:58:44.925496,True,log interpolate,True,True,6,True,False,False,True,True,True,True,False,False,True,122
+123,123,TrialState.COMPLETE,8.057975407670463,2024-06-18 05:57:12.832085,2024-06-18 05:59:02.556585,True,log interpolate,True,True,6,True,False,False,True,True,True,True,False,False,True,123
+124,124,TrialState.COMPLETE,8.057975407670463,2024-06-18 05:57:20.707258,2024-06-18 05:59:10.603830,True,log interpolate,True,True,6,True,False,False,True,True,True,True,False,False,True,124
+125,125,TrialState.COMPLETE,8.057975407670463,2024-06-18 05:57:29.340212,2024-06-18 05:59:20.594788,True,log interpolate,True,True,6,True,False,False,True,True,True,True,False,False,True,125
+126,126,TrialState.COMPLETE,7.881750043074619,2024-06-18 05:58:19.446918,2024-06-18 06:00:25.952731,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,126
+127,127,TrialState.COMPLETE,7.881750043074619,2024-06-18 05:58:28.559623,2024-06-18 06:00:35.713046,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,127
+128,128,TrialState.COMPLETE,7.881750043074619,2024-06-18 05:58:37.019465,2024-06-18 06:00:44.385518,True,log interpolate,True,True,7,True,False,False,True,True,True,False,False,False,True,128
+129,129,TrialState.COMPLETE,33.527051352659484,2024-06-18 05:58:44.974444,2024-06-18 05:58:54.062867,True,log interpolate,True,True,7,True,False,False,True,True,True,False,False,True,True,129
+130,130,TrialState.COMPLETE,7.881750043074619,2024-06-18 05:58:54.109272,2024-06-18 06:01:00.405812,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,130
+131,131,TrialState.COMPLETE,7.881750043074619,2024-06-18 05:59:02.588142,2024-06-18 06:01:08.427599,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,131
+132,132,TrialState.COMPLETE,7.881750043074619,2024-06-18 05:59:10.651176,2024-06-18 06:01:16.140175,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,132
+133,133,TrialState.COMPLETE,7.881750043074619,2024-06-18 05:59:12.167249,2024-06-18 06:01:18.907793,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,133
+134,134,TrialState.COMPLETE,7.881750043074619,2024-06-18 05:59:20.641277,2024-06-18 06:01:25.879414,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,134
+135,135,TrialState.COMPLETE,7.881750043074619,2024-06-18 06:00:25.993337,2024-06-18 06:02:29.527413,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,135
+136,136,TrialState.COMPLETE,7.881750043074619,2024-06-18 06:00:35.775843,2024-06-18 06:02:38.802428,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,136
+137,137,TrialState.COMPLETE,7.881750043074619,2024-06-18 06:00:44.447023,2024-06-18 06:02:48.412785,True,log interpolate,True,True,7,True,False,False,True,True,True,False,False,False,True,137
+138,138,TrialState.COMPLETE,7.423474765163654,2024-06-18 06:01:00.453365,2024-06-18 06:05:46.313884,True,log interpolate,True,True,7,True,True,False,True,True,True,True,False,False,True,138
+139,139,TrialState.COMPLETE,7.71267351881252,2024-06-18 06:01:08.501690,2024-06-18 06:05:04.623930,True,log interpolate,True,True,9,True,True,False,True,True,True,True,False,False,True,139
+140,140,TrialState.COMPLETE,7.881750043074619,2024-06-18 06:01:16.209665,2024-06-18 06:03:16.921904,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,140
+141,141,TrialState.COMPLETE,7.881750043074619,2024-06-18 06:01:18.957634,2024-06-18 06:03:18.989812,True,log interpolate,True,True,7,True,False,False,True,True,True,True,False,False,True,141
+142,142,TrialState.COMPLETE,8.08638381668548,2024-06-18 06:01:25.939061,2024-06-18 06:03:32.848621,True,log interpolate,True,True,9,True,False,False,True,True,True,True,False,False,True,142
+143,143,TrialState.COMPLETE,8.08638381668548,2024-06-18 06:02:29.559719,2024-06-18 06:04:29.407920,True,log interpolate,True,True,9,True,False,False,True,True,True,True,False,False,True,143
+144,144,TrialState.COMPLETE,7.71267351881252,2024-06-18 06:02:38.858177,2024-06-18 06:06:22.599307,True,log interpolate,True,True,9,True,True,False,True,True,True,True,False,False,True,144
+145,145,TrialState.COMPLETE,7.71267351881252,2024-06-18 06:02:48.461898,2024-06-18 06:06:31.883893,True,log interpolate,True,True,9,True,True,False,True,True,True,False,False,False,True,145
+146,146,TrialState.COMPLETE,8.08638381668548,2024-06-18 06:03:16.955433,2024-06-18 06:05:12.895074,True,log interpolate,True,True,9,True,False,False,True,True,True,False,False,False,True,146
+147,147,TrialState.COMPLETE,7.71267351881252,2024-06-18 06:03:19.054904,2024-06-18 06:07:04.082817,True,log interpolate,True,True,9,True,True,False,True,True,True,True,False,False,True,147
+148,148,TrialState.COMPLETE,7.065349311947429,2024-06-18 06:03:32.926677,2024-06-18 06:09:16.746990,True,log interpolate,True,True,11,True,True,False,True,True,True,False,False,False,True,148
+149,149,TrialState.COMPLETE,7.752828542880715,2024-06-18 06:04:29.441480,2024-06-18 06:08:54.608800,True,log interpolate,True,False,5,True,True,False,True,True,True,False,False,False,True,149
+150,150,TrialState.COMPLETE,7.635706832013332,2024-06-18 06:05:04.658067,2024-06-18 06:11:10.363406,True,log interpolate,True,True,8,True,True,False,True,True,True,False,False,False,True,150
+151,151,TrialState.COMPLETE,7.712600275771695,2024-06-18 06:05:12.951378,2024-06-18 06:09:53.737078,True,log interpolate,True,True,6,True,True,False,True,True,True,False,False,False,True,151
+152,152,TrialState.COMPLETE,7.635706832013332,2024-06-18 06:05:46.348664,2024-06-18 06:11:49.654623,True,log interpolate,True,True,8,True,True,False,True,True,True,True,False,False,True,152
+153,153,TrialState.COMPLETE,7.149235849497154,2024-06-18 06:06:22.636570,2024-06-18 06:14:01.259626,True,log interpolate,True,True,10,True,True,False,True,True,True,False,False,False,True,153
+154,154,TrialState.COMPLETE,7.065349311947429,2024-06-18 06:06:31.941175,2024-06-18 06:12:16.570478,True,log interpolate,True,True,11,True,True,False,True,True,True,False,False,False,True,154
+155,155,TrialState.COMPLETE,7.164959792063941,2024-06-18 06:07:02.611491,2024-06-18 06:14:11.722121,True,log interpolate,True,False,10,True,True,False,True,True,True,False,False,False,True,155
+156,156,TrialState.COMPLETE,7.164959792063941,2024-06-18 06:07:04.141213,2024-06-18 06:14:16.114260,True,log interpolate,True,False,10,True,True,False,True,True,True,False,False,False,True,156
+157,157,TrialState.COMPLETE,7.065349311947429,2024-06-18 06:07:14.338561,2024-06-18 06:12:53.220817,True,log interpolate,True,True,11,True,True,False,True,True,True,False,False,False,True,157
+158,158,TrialState.COMPLETE,8.332359985563636,2024-06-18 06:08:54.653088,2024-06-18 06:09:29.455373,True,log interpolate,True,False,10,True,True,False,True,False,True,False,False,False,True,158
+159,159,TrialState.COMPLETE,8.395241470025557,2024-06-18 06:09:16.785030,2024-06-18 06:09:54.427170,True,log interpolate,True,False,11,True,True,False,True,False,True,False,False,False,True,159
+160,160,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:09:29.494130,2024-06-18 06:14:05.943731,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,160
+161,161,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:09:53.794402,2024-06-18 06:14:37.096396,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,161
+162,162,TrialState.COMPLETE,7.164959792063941,2024-06-18 06:09:54.481743,2024-06-18 06:17:01.394719,True,log interpolate,True,False,10,True,True,False,True,True,True,False,False,False,True,162
+163,163,TrialState.COMPLETE,12.540887062184606,2024-06-18 06:11:10.408831,2024-06-18 06:36:08.793071,True,log interpolate,True,False,4,True,True,False,True,True,True,False,False,False,True,163
+164,164,TrialState.COMPLETE,7.723715635461657,2024-06-18 06:11:49.692313,2024-06-18 06:15:13.572816,True,log interpolate,True,False,9,True,True,False,True,True,True,False,False,False,True,164
+165,165,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:12:16.607590,2024-06-18 06:16:55.589517,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,165
+166,166,TrialState.COMPLETE,7.065349311947429,2024-06-18 06:12:53.258244,2024-06-18 06:18:28.556203,True,log interpolate,True,True,11,True,True,False,True,True,True,False,False,False,True,166
+167,167,TrialState.COMPLETE,76.1082935654552,2024-06-18 06:14:01.297837,2024-06-18 06:14:13.465845,True,Q^2 power series,True,False,10,True,True,False,True,True,True,False,False,False,True,167
+168,168,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:14:06.005572,2024-06-18 06:18:51.397941,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,168
+169,169,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:14:11.788379,2024-06-18 06:18:53.427291,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,169
+170,170,TrialState.COMPLETE,7.442260879181477,2024-06-18 06:14:13.555658,2024-06-18 06:19:06.788301,True,log interpolate,True,False,12,True,True,False,True,True,True,False,False,False,True,170
+171,171,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:14:16.174902,2024-06-18 06:18:57.337542,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,171
+172,172,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:14:37.155472,2024-06-18 06:19:14.508338,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,172
+173,173,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:15:13.631537,2024-06-18 06:19:58.189500,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,173
+174,174,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:16:55.629226,2024-06-18 06:21:37.162334,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,174
+175,175,TrialState.COMPLETE,76.10825109076723,2024-06-18 06:17:01.459332,2024-06-18 06:17:07.445181,True,inv interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,175
+176,176,TrialState.COMPLETE,7.442260879181477,2024-06-18 06:17:07.506682,2024-06-18 06:21:59.954371,True,log interpolate,True,False,12,True,True,False,True,True,True,False,False,False,True,176
+177,177,TrialState.COMPLETE,7.442260879181477,2024-06-18 06:18:28.615548,2024-06-18 06:23:21.795740,True,log interpolate,True,False,12,True,True,False,True,True,True,False,False,False,True,177
+178,178,TrialState.COMPLETE,29.564923384925713,2024-06-18 06:18:51.438008,2024-06-18 06:19:05.421082,True,log interpolate,True,False,12,True,True,False,True,True,True,False,False,True,True,178
+179,179,TrialState.COMPLETE,29.564923384925713,2024-06-18 06:18:53.481835,2024-06-18 06:19:06.832411,True,log interpolate,True,False,12,True,True,False,True,True,True,False,False,True,True,179
+180,180,TrialState.COMPLETE,7.442260879181477,2024-06-18 06:18:57.405094,2024-06-18 06:23:52.182999,True,log interpolate,True,False,12,True,True,False,True,True,True,False,False,False,True,180
+181,181,TrialState.COMPLETE,7.442260879181477,2024-06-18 06:19:05.488888,2024-06-18 06:23:59.232615,True,log interpolate,True,False,12,True,True,False,True,True,True,False,False,False,True,181
+182,182,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:19:06.992686,2024-06-18 06:23:50.288993,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,182
+183,183,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:19:07.051778,2024-06-18 06:23:49.877556,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,183
+184,184,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:19:14.619123,2024-06-18 06:23:57.064954,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,184
+185,185,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:19:58.231127,2024-06-18 06:24:41.027829,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,185
+186,186,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:21:37.220066,2024-06-18 06:26:20.360140,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,186
+187,187,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:22:00.000108,2024-06-18 06:26:41.414900,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,187
+188,188,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:23:21.858656,2024-06-18 06:28:04.463215,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,188
+189,189,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:23:49.944159,2024-06-18 06:28:35.217232,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,189
+190,190,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:23:50.378688,2024-06-18 06:28:33.407711,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,190
+191,191,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:23:52.251204,2024-06-18 06:28:31.719440,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,191
+192,192,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:23:57.131807,2024-06-18 06:28:39.202728,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,192
+193,193,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:23:59.398569,2024-06-18 06:28:40.215744,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,193
+194,194,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:24:41.086161,2024-06-18 06:29:11.165843,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,194
+195,195,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:26:20.413268,2024-06-18 06:30:43.339167,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,195
+196,196,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:26:41.458818,2024-06-18 06:31:00.815893,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,196
+197,197,TrialState.COMPLETE,7.262774349611588,2024-06-18 06:28:04.508289,2024-06-18 06:32:15.938542,True,log interpolate,True,False,11,True,True,False,True,True,True,False,False,False,True,197
+198,198,TrialState.COMPLETE,7.164959792063941,2024-06-18 06:28:31.763108,2024-06-18 06:34:43.563651,True,log interpolate,True,False,10,True,True,False,True,True,True,False,False,False,True,198
+199,199,TrialState.COMPLETE,8.43245653031303,2024-06-18 06:28:33.475171,2024-06-18 06:32:13.280591,True,log interpolate,True,False,10,True,True,False,True,True,True,False,False,False,False,199

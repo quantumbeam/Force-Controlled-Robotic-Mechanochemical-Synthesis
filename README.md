@@ -10,7 +10,7 @@ https://github.com/quantumbeam/BBO-Rietveld
 This repository provides the minimal scripts necessary for the experiments described in the paper. For the latest code of the ROS package for Robotic Powder Grinding, please refer to the following repository:
 https://github.com/quantumbeam/powder_grinding
 
-## Files for Experimental Setup
+## 3D print soft jig
 We provide CAD files for fixtures that can be 3D printed and assembly instructions necessary to replicate the experiments.
 
 ## Citation

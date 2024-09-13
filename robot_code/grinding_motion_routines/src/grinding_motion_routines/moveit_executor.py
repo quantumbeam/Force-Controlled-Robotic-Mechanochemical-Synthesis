@@ -16,7 +16,13 @@ from scipy.spatial.transform import Slerp
 class MoveitExecutor(object):
     """Executor including MoveItCommander . This class can command moving manipurator with single pose or way points."""
 
-    def __init__(self, move_group_name, ee_link,planner_id="RRTConnectkConfigDefault",planning_time =20):
+    def __init__(
+        self,
+        move_group_name,
+        ee_link,
+        planner_id="RRTConnectkConfigDefault",
+        planning_time=20,
+    ):
         # initialize
         moveit_commander.roscpp_initialize(sys.argv)
         robot = moveit_commander.RobotCommander()
@@ -36,23 +42,29 @@ class MoveitExecutor(object):
             queue_size=20,
         )
 
-
         # set planner
         move_group.set_planner_id(planner_id)
-        move_group.set_planning_time (planning_time)
+        move_group.set_planning_time(planning_time)
         # set end effector link
         move_group.set_end_effector_link(ee_link)
 
         # rospy.loginfo robot parameters
-        rospy.loginfo("============ Planning frame: %s" % move_group.get_planning_frame())
+        rospy.loginfo("============ move_group_name: %s" % move_group_name)
+        rospy.loginfo(
+            "============ Planning frame: %s" % move_group.get_planning_frame()
+        )
         rospy.loginfo("============ Planner ID: %s" % move_group.get_planner_id())
         rospy.loginfo("============ Planning time: %s" % move_group.get_planning_time())
-        rospy.loginfo("============ End effector link: %s" % move_group.get_end_effector_link())
-        rospy.loginfo("============ End effector pose: %s" % move_group.get_current_pose())
+        rospy.loginfo(
+            "============ End effector link: %s" % move_group.get_end_effector_link()
+        )
+        rospy.loginfo(
+            "============ End effector pose: %s" % move_group.get_current_pose()
+        )
         rospy.loginfo(
             "============ Available Planning Groups: %s" % robot.get_group_names()
         )
-        
+
         # Robot state
         rospy.loginfo("============ Rospy.loginfoing robot state")
         rospy.loginfo(robot.get_current_state())
@@ -66,7 +78,7 @@ class MoveitExecutor(object):
         self.init_ee_link = ee_link
         self.group_names = move_group_name
 
-        self.eef_step = 0.1  # the step of the cartesian path planning
+        self.ee_step = 0.1  # the step of the cartesian path planning
         self.avoid_collisions = False
         self.path_constraints = None
 
@@ -97,6 +109,7 @@ class MoveitExecutor(object):
         pose_msg.orientation.w = pose_list[6]
 
         return pose_msg
+
     def change_planner_id(self, planner_id):
         self.move_group.set_planner_id(planner_id)
         rospy.loginfo("============ Planner ID: %s" % planner_id)
@@ -132,10 +145,10 @@ class MoveitExecutor(object):
             return result
 
         else:
-            self.move_group.plan()
+            result = self.move_group.plan()
             self.move_group.stop()
             self.move_group.clear_pose_targets()
-            return False
+            return result
 
     def execute_cartesian_path_to_goal_pose(
         self,
@@ -144,7 +157,7 @@ class MoveitExecutor(object):
         vel_scale=0.1,
         acc_scale=0.1,
         execute=True,
-        eef_step=0.01,
+        ee_step=0.01,
         jump_threshold=0.0,
         avoid_collisions=True,
         path_constraints=None,
@@ -174,7 +187,7 @@ class MoveitExecutor(object):
             vel_scale=vel_scale,
             acc_scale=acc_scale,
             execute=execute,
-            eef_step=eef_step,
+            ee_step=ee_step,
             jump_threshold=jump_threshold,
             avoid_collisions=avoid_collisions,
             path_constraints=path_constraints,
@@ -188,7 +201,7 @@ class MoveitExecutor(object):
         vel_scale=0.1,
         acc_scale=0.1,
         execute=True,
-        eef_step=0.01,
+        ee_step=0.01,
         jump_threshold=0.0,
         avoid_collisions=True,
         path_constraints=None,
@@ -204,7 +217,7 @@ class MoveitExecutor(object):
         waypoints = [self._list_to_pose(pose) for pose in waypoints]
         (path, fraction) = self.move_group.compute_cartesian_path(
             waypoints,
-            eef_step=eef_step,
+            ee_step=ee_step,
             jump_threshold=jump_threshold,
             avoid_collisions=avoid_collisions,
             path_constraints=path_constraints,
@@ -244,9 +257,9 @@ class MoveitExecutor(object):
         self.move_group.clear_pose_targets()
 
     def _change_end_effector_link(self, new_ee_link):
-        old_eef_link = self.move_group.get_end_effector_link()
+        old_ee_link = self.move_group.get_end_effector_link()
         rospy.loginfo(
             "============ Cange End effector link: %s to %s"
-            % (old_eef_link, new_ee_link)
+            % (old_ee_link, new_ee_link)
         )
         self.move_group.set_end_effector_link(new_ee_link)

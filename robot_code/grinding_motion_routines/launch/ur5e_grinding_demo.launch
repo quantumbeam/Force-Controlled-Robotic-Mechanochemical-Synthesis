@@ -7,9 +7,9 @@
     <arg name="abs_force" default="false" />
     <arg name="rosbag_record" default="false" />
     <arg name="rosbag_name" default="$(find grinding_motion_routines)/bag/" />
-    <arg name="sim" default="false" />
 
-    <node name="ur_ft_filter" pkg="grinding_robot_bringup" type="ft_filter.py" args="-z -t 'wrench'"
+    <node name="ur_ft_filter" pkg="grinding_motion_routines" type="ft_filter.py"
+        args="-z -t 'wrench'"
         output="screen" />
 
     <node name="mechano_grinding" pkg="grinding_motion_routines" type="ur_grinding_demo.py"

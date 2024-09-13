@@ -3,7 +3,6 @@ This repo is support page of Force-Controlled Robotic Mechanochemical Synthesis.
 This page provides the Rietveld analysis results, scripts for robotic operation, and files for experimental setup related to the paper on Force-Controlled Robotic Mechanochemical Synthesis.
 
 ## Rietveld Analysis
-
 The automated analysis method utilizes BBO-Rietveld.
 https://github.com/quantumbeam/BBO-Rietveld
 
@@ -15,6 +14,7 @@ https://github.com/quantumbeam/powder_grinding
 
 ## 3D print soft jig
 We provide CAD files for fixtures that can be 3D printed and assembly instructions necessary to replicate the experiments.
+Please see [README](./soft_jig/README.md)
 
 ## Citation
 

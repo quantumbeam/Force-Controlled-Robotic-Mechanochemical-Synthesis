@@ -10,10 +10,13 @@ pip3 install -r src/powder_grinding/requirements.txt
 
 # Updating ROSDEP and installing dependencies
 rosdep update
+rm -rf src/third_party
+rm -rf src/powder_grinding/third_party
 vcs import src < src/powder_grinding/.rosinstall
 rosdep install --from-paths src --ignore-src --rosdistro=$ROS_DISTRO -y
 
 # Build
+rm -rf build devel
 catkin build
 
 # Update enviromental veriables
@@ -22,8 +25,5 @@ source devel/setup.bash
 
 
 # Copy description files to DENSO ROS package
-rosrun denso_robot_bringup install_robot_description.py ./src/powder_grinding/grinding_descriptions/urdf/cobotta/setup_files/cobotta_description
-rosrun denso_robot_bringup update_joint_limits.py cobotta ./src/powder_grinding/grinding_descriptions/urdf/cobotta/setup_files/joint_limits.yaml
 echo "It is fine if cobotta's setup_files does not exist even if you run this script more than once."
-
-echp "If you can't use roslauch, please run the 'source devel/setup.bash' on the terminal."
+echo "If you can't use roslauch, please run the 'source devel/setup.bash' on the terminal."

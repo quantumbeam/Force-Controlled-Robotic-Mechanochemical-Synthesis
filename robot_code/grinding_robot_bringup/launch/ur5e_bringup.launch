@@ -6,7 +6,7 @@
   <arg name="pipeline" default="ompl" doc="The planning pipeline to use." />
 
   <!-- Params for UR hardware -->
-  <arg name="robot_ip" default="192.168.58.42" />
+  <arg name="robot_ip" default="192.168.56.42" />
   <arg name="reverse_ip" default="" />
   <arg name="reverse_port" default="50001" />
   <arg name="script_sender_port" default="50002" />
@@ -27,27 +27,27 @@
 
   <!-- Common Configrations-->
   <arg name="joint_limit_params"
-    default="$(find onolab_robot_description)/config/ur5e/joint_limits.yaml" />
+    default="$(find grinding_robot_description)/config/ur5e/joint_limits.yaml" />
   <arg name="physical_params"
-    default="$(find onolab_robot_description)/config/ur5e/physical_parameters.yaml" />
+    default="$(find grinding_robot_description)/config/ur5e/physical_parameters.yaml" />
   <arg name="visual_params"
-    default="$(find onolab_robot_description)/config/ur5e/visual_parameters.yaml" />
+    default="$(find grinding_robot_description)/config/ur5e/visual_parameters.yaml" />
   <arg name="kinematics_params" unless="$(arg sim)"
-    default="$(find onolab_robot_description)/config/ur5e/240401_ur5e_U1E_903_kinematics.yaml" />
+    default="$(find grinding_robot_description)/config/ur5e/230413_real_robot_kinematics.yaml" />
   <arg name="kinematics_params" if="$(arg sim)"
-    default="$(find onolab_robot_description)/config/ur5e/default_kinematics.yaml" />
+    default="$(find grinding_robot_description)/config/ur5e/default_kinematics.yaml" />
   <arg name="pestle_length" default="0.121"
     doc="The length of the pestle.  This is used to calculate the position of the pestle tip" />
   <arg name="spatula_length" default="0.087"
     doc="The length of the spatula.  This is used to calculate the position of the spatula tip" />
 
-  <!-- Configrations for  UR hardware -->
+  <!-- Configrations for UR hardware -->
   <arg name="robot_description_file"
-    default="$(find onolab_robot_description)/launch/load_ur5e.launch" />
+    default="$(find grinding_robot_description)/launch/load_ur5e.launch" />
   <arg name="controller_config_file" unless="$(arg sim)"
-    default="$(find onolab_robot_bringup)/config/ur5e_controllers.yaml" />
+    default="$(find grinding_robot_bringup)/config/ur5e_controllers.yaml" />
   <arg name="controller_config_file" if="$(arg sim)"
-    default="$(find onolab_robot_bringup)/config/ur5e_controllers_fake_joint.yaml" />
+    default="$(find grinding_robot_bringup)/config/ur5e_controllers_fake_joint.yaml" />
   <arg name="controllers" unless="$(arg sim)"
     default="joint_state_controller scaled_pos_joint_traj_controller force_torque_sensor_controller robot_status_controller speed_scaling_state_controller" />
   <arg name="controllers" if="$(arg sim)"
@@ -55,7 +55,7 @@
 
   <!-- User Configrations-->
   <arg name="planning_scene_config"
-    default="$(find onolab_scene_description)/config/U1E_903_with_MiniFlex.yaml" />
+    default="$(find grinding_scene_description)/config/ur5e_planning_scene_demo.yaml" />
 
   <!-- Load the URDF, SRDF and joint_limits configuration -->
   <include file="$(arg robot_description_file)">
@@ -81,14 +81,11 @@
     <include file="$(find ur_robot_driver)/launch/ur_control.launch" pass_all_args="true">
       <arg name="kinematics_config" value="$(arg kinematics_params)" />
     </include>
-    <!-- publish force z for visualize on Rviz -->
-    <node name="force_z_publisher" pkg="onolab_robot_bringup" type="publish_force_z.py"
-      output="screen" />
   </group>
 
 
   <!-- Launch moveit -->
-  <include file="$(find onolab_ur5e_moveit_config)/launch/move_group.launch">
+  <include file="$(find grinding_ur5e_moveit_config)/launch/move_group.launch">
     <arg name="allow_trajectory_execution" default="true" />
     <arg name="fake_execution" value="false" />
     <arg name="info" value="$(arg debug)" />
@@ -98,18 +95,13 @@
 
   <!-- launch rviz -->
   <include file="$(find ur5e_moveit_config)/launch/moveit_rviz.launch">
-    <param name="config" value="$(find onolab_robot_bringup)/etc/ur5e.rviz" />
+    <param name="config" value="$(find grinding_robot_bringup)/etc/ur5e.rviz" />
   </include>
 
   <!-- load planning scene -->
-  <node name="initial_planning_scene" pkg="onolab_scene_description" type="load_planning_scene.py"
+  <node name="initial_planning_scene" pkg="grinding_scene_description" type="load_planning_scene.py"
     output="screen">
     <rosparam command="load" file="$(arg planning_scene_config)" />
   </node>
-
-
-  <!-- Load the cartesian_controllers -->
-  <node name="cartesian_controller_loader" pkg="controller_manager" type="spawner"
-    args="--stopped cartesian_compliance_controller cartesian_force_controller cartesian_motion_controller motion_control_handle" />
 
 </launch>

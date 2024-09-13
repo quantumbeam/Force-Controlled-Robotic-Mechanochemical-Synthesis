@@ -3,11 +3,11 @@ version: "3.8"
 ################################################################################
 
 services:
-  powder-grinding-ros:
-    hostname: powder_grinding_ros
+  robotic-mechanochemistry-ros:
+    hostname: robotic_mechanochemistry_ros
     runtime: ${DOCKER_RUNTIME}
     privileged: true
-    image: powder_grinding_ros_noetic
+    image: robotic_mechanochemistry_ros_noetic
     environment:
       # Pass host user information.
       - HOST_USER=${USER}

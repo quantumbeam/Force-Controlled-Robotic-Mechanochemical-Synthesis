@@ -1,12 +1,11 @@
 ### Robotic Powder Grinding for Laboratory Automation
 <img src="https://github.com/quantumbeam/powder_grinding/blob/main/wiki/grinding_demo.gif?raw=true" alt="UR powder grinding" width="500">
 
-乳棒と乳鉢用いたロボット粉体粉砕のためのROSパッケージです。
+乳棒と乳鉢用いたロボットメカノケミカル合成のためのROSパッケージです。
 シミュレーション(Gazebo)上での動作とロボット実機での動作ができます。
 
 ## 目次
 - [目次](#目次)
-- [概要](#概要)
 - [対応ロボット](#対応ロボット)
 - [クイックスタート](#クイックスタート)
   - [PCとロボットとDocker環境のセットアップ](#pcとロボットとdocker環境のセットアップ)
@@ -18,14 +17,11 @@
   - [Citation](#citation)
 - [License](#license)
 
-## 概要
-**Last Updated:** 2023/10/24  
-This repository focuses on the ROS environment for robot control.
+
 
 ## 対応ロボット
 - UR5e
-- UR3e
-- Cobotta
+
 
 ## クイックスタート
 
@@ -51,15 +47,12 @@ This repository focuses on the ROS environment for robot control.
 - ロボットの立ち上げ
    ```
    roslaunch grinding_robot_bringup ur5e_bringup.launch
-   roslaunch grinding_robot_bringup ur3e_bringup.launch
-   roslaunch grinding_robot_bringup cobotta_bringup.launch
    ```
    - シミュレーション使う場合は`sim:=true`で立ち上げてください。
 - 粉砕モーションの立ち上げ
    ```
-   roslaunch grinding_motion_routines ur3e_grinding_demo.launch
    roslaunch grinding_motion_routines ur5e_grinding_demo.launch
-   roslaunch grinding_motion_routines cobotta_grinding_demo.launch
+
    ```
    - コマンド`g`で粉砕の実行準備(g=grinding)、続けて`y`で粉砕実行します。
    - コマンド`G`でヘラによる粉集めの実行準備(g=grinding)、続けて`y`で粉集め実行します。

@@ -14,7 +14,6 @@ This package can operate both in simulation (Gazebo) and on the actual robot.
     - [Demonstration](#demonstration)
   - [Known Issues](#known-issues)
   - [Future Work](#future-work)
-  - [Citation](#citation)
   - [License](#license)
 
 
@@ -63,17 +62,6 @@ You can also view the Japanese version of the [README_jp](./README_jp.md).
  - Need to load custom URDF for grinding on IKFast
 - Automated calibration of mortar position using a force sensor.
 
-### Citation
-- [Robotic Powder Grinding with a Soft Jig for Laboratory Automation in Material Science](https://doi.org/10.1109/IROS47612.2022.9981081) (IROS 2022)
-```
-@InProceedings{RoboticPowderGrindingWithSoftJig,
-  Title                    = {Robotic Powder Grinding with a Soft Jig for Laboratory Automation in Material Science},
-  Author                   = {Yusaku Nakajima, Masashi Hamaya, Yuta Suzuki, Takafumi Hawai, Felix Von Drigalski, Kazutoshi Tanaka, Yoshitaka Ushiku and Kanta Ono.},
-  Booktitle                = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  Year                     = {2022},
-  Doi                      = {10.1109/IROS47612.2022.9981081}
-}
-```
 
 ### License
 This repository is under the MIT license. See [LICENSE](./LICENSE) for details.

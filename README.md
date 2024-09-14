@@ -5,18 +5,18 @@ This page provides the Rietveld analysis results, scripts for robotic operation,
 ## Rietveld Analysis
 The automated analysis method utilizes BBO-Rietveld.
 https://github.com/quantumbeam/BBO-Rietveld
-This repository provides the demo scripts of the analysis.
-
+This repository includes demo scripts. 
+Please refer to the [README](./BBO-Rietveld/README.md) for instructions on how to use them.
 
 
 ## Scripts for Robotic Powder Grinding
 This repository provides the minimal scripts necessary for the experiments described in the paper. 
-For the latest code of the ROS package for Robotic Powder Grinding, please refer to the following repository:
-https://github.com/quantumbeam/powder_grinding
+Please refer to the [README](./BBO-Rietveld/README.md) for instructions on how to use them.
+
 
 ## 3D print soft jig
 We provide CAD files for fixtures that can be 3D printed and assembly instructions necessary to replicate the experiments.
-Please see [README](./soft_jig/README.md)
+Please see [README](./soft_jig/README.md) to construct the soft jig.
 
 ## Citation
 

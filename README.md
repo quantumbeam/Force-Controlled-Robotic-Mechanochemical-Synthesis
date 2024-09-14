@@ -5,6 +5,8 @@ This page provides the Rietveld analysis results, scripts for robotic operation,
 ## Rietveld Analysis
 The automated analysis method utilizes BBO-Rietveld.
 https://github.com/quantumbeam/BBO-Rietveld
+This repository provides the demo scripts of the analysis.
+
 
 
 ## Scripts for Robotic Powder Grinding

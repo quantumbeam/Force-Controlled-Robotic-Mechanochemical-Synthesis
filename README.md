@@ -11,7 +11,7 @@ Please refer to the [README](./BBO-Rietveld/README.md) for instructions on how t
 
 ## Scripts for Robotic Powder Grinding
 This repository provides the minimal scripts necessary for the experiments described in the paper. 
-Please refer to the [README](./BBO-Rietveld/README.md) for instructions on how to use them.
+Please refer to the [README](./robot_code/README.md) for instructions on how to use them.
 
 
 ## 3D print soft jig

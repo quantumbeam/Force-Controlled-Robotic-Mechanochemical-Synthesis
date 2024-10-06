@@ -1,8 +1,8 @@
-### Robotic Powder Grinding for Laboratory Automation
-<img src="https://github.com/quantumbeam/powder_grinding/blob/main/wiki/grinding_demo.gif?raw=true" alt="UR powder grinding" width="500">
+### Robotic Powder Grinding Demo
+<img src="https://github.com/quantumbeam/Force-Controlled-Robotic-Mechanochemical-Synthesis/blob/main/wiki/grinding_demo.gif?raw=true" alt="UR powder grinding" width="500">
 
-Custum ROS packages for robotic mechanochemistry.
-This package can operate both in simulation (Gazebo) and on the actual robot.
+Demo ROS packages for robotic mechanochemistry.
+This package can operate both in simulation (fake_joint) and on the actual robot.
 
 
 #### **Table of Contents**
@@ -12,9 +12,6 @@ This package can operate both in simulation (Gazebo) and on the actual robot.
     - [Running Docker Container](#running-docker-container)
     - [Building ROS Packages in Docker Container](#building-ros-packages-in-docker-container)
     - [Demonstration](#demonstration)
-  - [Known Issues](#known-issues)
-  - [Future Work](#future-work)
-  - [License](#license)
 
 
 ## Supported Robots
@@ -49,20 +46,6 @@ You can also view the Japanese version of the [README_jp](./README_jp.md).
    roslaunch grinding_motion_routines ur5e_grinding_demo.launch
    ```
    - Use the command g to prepare for grinding (g=grinding), and then use y to execute the grinding.
-   - Use the command G to prepare for powder collection with a spatula (G=grinding), and then use y to execute the powder collection.
+   - Use the command G to prepare for powder collection with a spatula (G=gathering), and then use y to execute the powder collection.
 - Grinding Parameters Configuration:
    - The configuration settings are located in the config directory within the grinding_motion_routines package.
-
-### Known Issues
-- Cobotta's .dea file is unreadable (use fixed .dae file from cobotta_description_converter.py in grinding_descriptions pkg).
-
-
-### Future Work
-- Add IKFast for motion planning
- - Need to load custom URDF for grinding on IKFast
-- Automated calibration of mortar position using a force sensor.
-
-
-### License
-This repository is under the MIT license. See [LICENSE](./LICENSE) for details.
-

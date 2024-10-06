@@ -33,4 +33,4 @@ url  ="http://dx.doi.org/10.1039/D4DD00189C"
 ```
 
 ## License
-This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
+This repository is licensed under the MIT License. See the [LICENSE](./LICENSE.txt) file for more details.

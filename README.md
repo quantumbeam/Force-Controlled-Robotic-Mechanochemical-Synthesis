@@ -19,5 +19,18 @@ We provide CAD files for fixtures that can be 3D printed and assembly instructio
 Please see [README](./soft_jig/README.md) to construct the soft jig.
 
 ## Citation
+If you use this repository in your research, please cite the following paper:
+```bibtex
+@Article{Y.NakajimaDigitalDiscovery2024,
+title  ="Force-controlled robotic mechanochemical synthesis",
+author ="Nakajima, Yusaku and Kawasaki, Kai and Takeichi, Yasuo and Hamaya, Masashi and Ushiku, Yoshitaka and Ono, Kanta",
+journal  ="Digital Discovery",
+year  ="2024",
+publisher  ="RSC",
+doi  ="10.1039/D4DD00189C",
+url  ="http://dx.doi.org/10.1039/D4DD00189C"
+}
+```
 
 ## License
+This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
